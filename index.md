@@ -1,3 +1,4 @@
+# Riki Otaki
 <div style="display: flex; align-items: center;">
   <div>
     <strong>PhD Student</strong><br>
@@ -5,10 +6,12 @@
     rotaki [at] uchicago [dot] edu<br>
     Room 381, John Crerar Library
   </div>
-  <div style="margin-right: 20px;">
-    <img src="profile.jpeg" alt="Riki Otaki" style="width: 100px; height: auto; border-radius: 50%;" />
+  <div style="margin-left: 30px;">
+    <img src="profile.jpeg" alt="Riki Otaki" style="width: 150px; height: 150px; border-radius: 5px;" />
   </div>
 </div>
+
+---
 
 
 I am a PhD student in the Computer Science Department at the University of Chicago. I am fortunate to be advised by Prof.[Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/). 
@@ -23,7 +26,4 @@ Before joining UChicago, I obtained my Bachelor's degree in Aerospace Engineerin
 # Projects
 
 # Teaching
-
-
-
 
