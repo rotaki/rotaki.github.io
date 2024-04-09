@@ -1,17 +1,15 @@
-<div style="display: flex; align-items: center; flex-direction: row-reverse;">
-  <div style="margin-left: 20px;"> <!-- Changed from margin-right to margin-left -->
+<div style="display: flex; align-items: center;">
+  <div>
+    <strong>PhD Student</strong><br>
+    Computer Science Department, University of Chicago<br>
+    rotaki [at] uchicago [dot] edu<br>
+    Room 381, John Crerar Library
+  </div>
+  <div style="margin-right: 20px;">
     <img src="profile.jpeg" alt="Riki Otaki" style="width: 100px; height: auto; border-radius: 50%;" />
   </div>
-  <div>
-    <h1>Riki Otaki</h1>
-    <p>
-      <strong>PhD Student</strong><br>
-      Computer Science Department, University of Chicago<br>
-      rotaki [at] uchicago [dot] edu<br>
-      Room 381, John Crerar Library
-    </p>
-  </div>
 </div>
+
 
 I am a PhD student in the Computer Science Department at the University of Chicago. I am fortunate to be advised by Prof.[Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/). 
 
