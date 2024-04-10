@@ -44,11 +44,15 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## Education
 * University of Chicago, Sep 2022 - Present
+
   PhD in Computer Science, Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/)
+
 * University of Tokyo, Mar 2017 - Mar 2022 
+
   Bachelor in Aerospace Engineering, Advisor: Prof. [Takehisa Yairi](https://ailab.t.u-tokyo.ac.jp/en/)
 
 * Uppsala University, Aug 2019 - Jun 2020
+
   Exchange Student
 
 ## Miscellaneous
