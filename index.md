@@ -4,7 +4,7 @@
     <strong>PhD Student</strong><br>
     Computer Science Department, University of Chicago<br>
     rotaki [at] uchicago [dot] edu<br>
-    Room 381, John Crerar Library
+    John Crerar Library Building, 5730 South Ellis Avenue, Chicago IL 60637
   </div>
   <div style="margin-left: 30px;">
     <img src="profile.jpeg" alt="Riki Otaki" style="width: 150px; height: 150px; border-radius: 5px;" />
