@@ -20,6 +20,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## Publications
 * Rui Liu, Jun Hyuk Chang, Riki Otaki, Zhe Heng Eng, Aaron J. Elmore, Michael J. Franklin, and Sanjay Krishnan
+
   [Towards Resource-adaptive Query Execution in Cloud Native Databases](https://www.cidrdb.org/cidr2024/papers/p34-liu.pdf)
   Conference on Innovative Data Systems Research (**CIDR**), 2024 
 
