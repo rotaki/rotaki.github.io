@@ -38,7 +38,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 - **Benchmarking Concurrency Control Protocols for OLTP Workloads (2021)**
   
-  Implemented and optimized various advanced concurrency control protocols (SILO, S2PL, MVTO) in C++, focusing on improving performance for OLTP workloads. Conducted detailed performance assessments under diverse operational scenarios using a comprehensive TPC-C benchmark suite to validate these improvements. [Repository](https://github.com/wattlebirdaz/tpcc-runner)
+  Implemented and optimized various advanced concurrency control protocols (SILO, S2PL, MVTO) in C++, focusing on improving performance for OLTP workloads. Conducted detailed performance assessments under diverse operational scenarios using a comprehensive TPC-C benchmark suite to validate these improvements. [Repository](https://github.com/rotaki/tpcc-runner)
 
 
 ## Teaching
