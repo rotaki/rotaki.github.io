@@ -16,7 +16,7 @@
 I am currently a fourth-year Ph.D. student in Computer Science at the University of Chicago under the mentorship of Prof. [Aaron J. Elmore](https://people.cs.uchicago.edu/~aelmore). I work closely with Dr. [Goetz Graefe](https://scholar.google.com/citations?hl=en&user=pdDeRScAAAAJ&view_op=list_works&sortby=pubdate) as well.
 My research centers on database systems, with particular interests in developing workload and resource-adaptive query execution engines and transaction processing systems tailored for cloud-native databases. Additionally, I have a keen interest in query optimization, transaction processing, and indexing techniques. I am passionate about building efficient and scalable systems that can adapt to varying workloads and resource constraints.
 
-Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Aerospace Engineering at the University of Tokyo.
+[Google Scholar](https://scholar.google.com/citations?user=tTa7P2MAAAAJ&hl=en) | [LinkedIn](linkedin.com/in/riki-otaki-b25a73346) | [GitHub](github.com/rotaki) 
 
 ## Publications
 ### 2025
