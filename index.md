@@ -13,18 +13,26 @@
 
 ---
 
-I am currently a third-year Ph.D. student in Computer Science at the University of Chicago under the mentorship of Prof. [Aaron J. Elmore](https://people.cs.uchicago.edu/~aelmore). My research centers on database systems, with particular interests in developing resource-adaptive query execution engines tailored for cloud-native databases and enhancing the performance of disk-based storage systems to compete with in-memory systems. Additionally, I have a keen interest in query optimization, transaction processing, and indexing techniques. I am passionate about building efficient and scalable systems that can adapt to varying workloads and resource constraints.
+I am currently a third-year Ph.D. student in Computer Science at the University of Chicago under the mentorship of Prof. [Aaron J. Elmore](https://people.cs.uchicago.edu/~aelmore). I work closely with Dr. [Goetz Graefe](https://scholar.google.com/citations?hl=en&user=pdDeRScAAAAJ&view_op=list_works&sortby=pubdate) as well.
+My research centers on database systems, with particular interests in developing workload and resource-adaptive query execution engines and transaction processing systems tailored for cloud-native databases. Additionally, I have a keen interest in query optimization, transaction processing, and indexing techniques. I am passionate about building efficient and scalable systems that can adapt to varying workloads and resource constraints.
 
 Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Aerospace Engineering at the University of Tokyo.
 
 ## Publications
+### 2025
+* **Riki Otaki**, Jun Hyuk Chang, Aaron J. Elmore, and Goetz Graefe
+
+  [Enhancing Transaction Processing through Indirection Skipping](https://www.vldb.org/pvldb/vol18/p4104-otaki.pdf)
+
+  International Conference on Very Large Data Bases (**VLDB**), 2025
+
 * **Riki Otaki**, Jun Hyuk Chang, Charles Benello, Aaron J. Elmore, and Goetz Graefe
 
   Resource-Adaptive Query Execution with Paged Memory Management
 
   Conference on Innovative Data Systems Research (**CIDR**), 2025
 
-
+### 2024
 * Rui Liu, Jun Hyuk Chang, **Riki Otaki**, Zhe Heng Eng, Aaron J. Elmore, Michael J. Franklin, and Sanjay Krishnan
 
   [Towards Resource-adaptive Query Execution in Cloud Native Databases](https://www.cidrdb.org/cidr2024/papers/p34-liu.pdf)
@@ -33,6 +41,10 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 
 ## Recent Projects
+
+- **Parallel Sorting for Large-scale Data Processing (2024-)**
+
+Developing a high-performance parallel sorting algorithm in Rust, optimized for large-scale data processing tasks. This project focuses on evaluating different policies for partitioning and merging data, as well as optimizing memory usage and minimizing latency. The goal is to create a sorting solution that can efficiently handle massive datasets in in-memory and disk-based environments, making it suitable for integration into modern data processing frameworks.
 
 - **Robust Pointer Swizzling techniques (2024-)**
 
