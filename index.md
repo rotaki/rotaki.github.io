@@ -13,7 +13,7 @@
 
 ---
 
-I am currently a third-year Ph.D. student in Computer Science at the University of Chicago under the mentorship of Prof. [Aaron J. Elmore](https://people.cs.uchicago.edu/~aelmore). I work closely with Dr. [Goetz Graefe](https://scholar.google.com/citations?hl=en&user=pdDeRScAAAAJ&view_op=list_works&sortby=pubdate) as well.
+I am currently a fourth-year Ph.D. student in Computer Science at the University of Chicago under the mentorship of Prof. [Aaron J. Elmore](https://people.cs.uchicago.edu/~aelmore). I work closely with Dr. [Goetz Graefe](https://scholar.google.com/citations?hl=en&user=pdDeRScAAAAJ&view_op=list_works&sortby=pubdate) as well.
 My research centers on database systems, with particular interests in developing workload and resource-adaptive query execution engines and transaction processing systems tailored for cloud-native databases. Additionally, I have a keen interest in query optimization, transaction processing, and indexing techniques. I am passionate about building efficient and scalable systems that can adapt to varying workloads and resource constraints.
 
 Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Aerospace Engineering at the University of Tokyo.
@@ -43,7 +43,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 - **Parallel Sorting for Large-scale Data Processing (2024-)**
 
-Developing a high-performance parallel sorting algorithm in Rust, optimized for large-scale data processing tasks. This project focuses on evaluating different policies for partitioning and merging data, as well as optimizing memory usage and minimizing latency. The goal is to create a sorting solution that can efficiently handle massive datasets in in-memory and disk-based environments, making it suitable for integration into modern data processing frameworks.
+  Developing a high-performance parallel sorting algorithm in Rust, optimized for large-scale data processing tasks. This project focuses on evaluating different policies for partitioning and merging data, as well as optimizing memory usage and minimizing latency. The goal is to create a sorting solution that can efficiently handle massive datasets in in-memory and disk-based environments, making it suitable for integration into modern data processing frameworks.
 
 * **Robust Pointer Swizzling techniques (2024-)**
 
