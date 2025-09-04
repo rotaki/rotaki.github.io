@@ -28,7 +28,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 * **Riki Otaki**, Jun Hyuk Chang, Charles Benello, Aaron J. Elmore, and Goetz Graefe
 
-  Resource-Adaptive Query Execution with Paged Memory Management
+  [Resource-Adaptive Query Execution with Paged Memory Management](https://vldb.org/cidrdb/papers/2025/p2-otaki.pdf)
 
   Conference on Innovative Data Systems Research (**CIDR**), 2025
 
@@ -37,8 +37,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
   [Towards Resource-adaptive Query Execution in Cloud Native Databases](https://www.cidrdb.org/cidr2024/papers/p34-liu.pdf)
 
-  Conference on Innovative Data Systems Research (**CIDR**), 2024 
-
+  Conference on Innovative Data Systems Research (**CIDR**), 2024
 
 ## Recent Projects
 
@@ -46,33 +45,34 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 Developing a high-performance parallel sorting algorithm in Rust, optimized for large-scale data processing tasks. This project focuses on evaluating different policies for partitioning and merging data, as well as optimizing memory usage and minimizing latency. The goal is to create a sorting solution that can efficiently handle massive datasets in in-memory and disk-based environments, making it suitable for integration into modern data processing frameworks.
 
-- **Robust Pointer Swizzling techniques (2024-)**
+* **Robust Pointer Swizzling techniques (2024-)**
 
   To bridge the performance gap between disk-based and in-memory database systems, I have focused on reducing inefficiencies in disk page retrieval. I developed Logical ID with Physical Address Hinting (LIPAH), a novel pointer-swizzling technique that enhances page access performance within the buffer pool manager. LIPAH is simpler and more robust than existing techniques, allowing for lazy updates of invalid pointers to new addresses. Currently, I am extending LIPAH to other components within the database system to further enhance performance.
 
-- **Fine-grained Control of Query Execution for Resource-adaptive Databases (2022-)**
+* **Fine-grained Control of Query Execution for Resource-adaptive Databases (2022-)**
   
   Developing a resource-adaptive query engine in Rust designed to boost the performance of cloud-based databases. This project prioritizes the dynamic execution of queries under fluctuating resource capacities. Our current focus areas include the suspension and resumption of queries, adjusting resource allocations in run-time, and query re-optimizations. The ultimate goal is to enhance the control over query execution, ensuring more accurate and efficient use of resources.
 
-- **Designing Journal Storage for Optuna, a Hyperparameter Optimization Library (2022)**
+* **Designing Journal Storage for Optuna, a Hyperparameter Optimization Library (2022)**
   
   Contributed to the development of a journal log storage system for Optuna, a highly-regarded hyperparameter optimization library. 
   This system enhances large-scale distributed optimization tasks by eliminating the need for centralized database management and ensuring efficient recovery during worker node failures. [Article](https://medium.com/optuna/distributed-optimization-via-nfs-using-optunas-new-operation-based-logging-storage-9815f9c3f932)
 
-- **Benchmarking Concurrency Control Protocols for OLTP Workloads (2021)**
+* **Benchmarking Concurrency Control Protocols for OLTP Workloads (2021)**
   
   Implemented and optimized various advanced concurrency control protocols (SILO, S2PL, MVTO) in C++, focusing on improving performance for OLTP workloads. Conducted detailed performance assessments under diverse operational scenarios using a comprehensive TPC-C benchmark suite to validate these improvements. [Repository](https://github.com/rotaki/tpcc-runner)
 
-
 ## Teaching
+
 * TA 2024 Spring: CMCS 23500/33500 "Introduction to Database Systems"
 
 ## Education
+
 * University of Chicago, Sep 2022 - Present
 
   PhD in Computer Science, Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/)
 
-* University of Tokyo, Mar 2017 - Mar 2022 
+* University of Tokyo, Mar 2017 - Mar 2022
 
   Bachelor in Aerospace Engineering, Advisor: Prof. [Takehisa Yairi](https://ailab.t.u-tokyo.ac.jp/en/)
 
