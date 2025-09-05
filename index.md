@@ -1,13 +1,29 @@
 # Riki Otaki
-<div style="display: flex; align-items: center;">
+<style>
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .profile-image {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+  }
+  .profile-image img {
+    width: 120px !important;
+    max-width: 40vw !important;
+  }
+}
+</style>
+<div class="profile-container" style="display: flex; align-items: center;">
   <div>
     <strong>PhD Student</strong><br>
     Computer Science Department, University of Chicago<br>
     rotaki [at] uchicago [dot] edu<br>
     John Crerar Library Building, 5730 South Ellis Avenue, Chicago IL 60637
   </div>
-  <div style="margin-left: 30px;">
-    <img src="profile.jpeg" alt="Riki Otaki" style="width: 150px; height: 150px; border-radius: 5px;" />
+  <div class="profile-image" style="margin-left: 30px;">
+    <img src="profile.jpeg" alt="Riki Otaki" style="width: 150px; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 5px;" />
   </div>
 </div>
 
@@ -71,6 +87,8 @@ My research centers on database systems, with particular interests in developing
 * University of Chicago, Sep 2022 - Present
 
   PhD in Computer Science, Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/)
+
+  Transitional MS Degree was awarded in Mar 2025.
 
 * University of Tokyo, Mar 2017 - Mar 2022
 
