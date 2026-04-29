@@ -43,7 +43,11 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 * University of Chicago, Sep 2022 - Present
 
-  PhD in Computer Science, Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/) | Close Collaborator: Dr. Goetz Graefe (Google)
+  PhD in Computer Science
+
+  Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/)
+
+  Close Collaborator: Dr. Goetz Graefe (Google)
 
   Transitional MS Degree was awarded in Mar 2025.
 
