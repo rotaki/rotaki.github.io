@@ -1,21 +1,39 @@
 # Riki Otaki
-<div style="display: flex; align-items: center;">
+<style>
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .profile-image {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+  }
+  .profile-image img {
+    width: 120px !important;
+    max-width: 40vw !important;
+  }
+}
+</style>
+<div class="profile-container" style="display: flex; align-items: center;">
   <div>
     <strong>PhD Candidate, MongoDB PhD Fellow</strong><br>
     Computer Science Department, University of Chicago<br>
     rotaki [at] uchicago [dot] edu<br>
     John Crerar Library Building, 5730 South Ellis Avenue, Chicago IL 60637
   </div>
-  <div style="margin-left: 30px;">
-    <img src="profile.jpeg" alt="Riki Otaki" style="width: 150px; height: 150px; border-radius: 5px;" />
+  <div class="profile-image" style="margin-left: 30px;">
+    <img src="profile.jpeg" alt="Riki Otaki" style="width: 150px; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 5px;" />
   </div>
 </div>
 
 ---
 
-I am a fourth-year Ph.D. student in Computer Science at the University of Chicago and a [**MongoDB PhD Fellow**](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients), advised by Prof. [Aaron J. Elmore](https://people.cs.uchicago.edu/~aelmore) in close collaboration with Dr. Goetz Graefe (Google). I build the next generation of data systems for cloud workloads, advancing memory and compute efficiency through **paged query execution** with fine-grained spills, **fast address translation via address hints** that narrows the disk-vs.-memory gap, and **memory-efficient, skew-resilient sorting**. My research has appeared at VLDB and CIDR.
+I am a fourth-year Ph.D. student in Computer Science at the University of Chicago and a [**MongoDB PhD Fellow**](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients), advised by Prof. [Aaron J. Elmore](https://people.cs.uchicago.edu/~aelmore) in close collaboration with Dr. [Goetz Graefe](https://scholar.google.com/citations?hl=en&user=pdDeRScAAAAJ&view_op=list_works&sortby=pubdate) (Google). I build the next generation of data systems for cloud workloads, advancing memory and compute efficiency through **paged query execution** with fine-grained spills, **fast address translation via address hints** that narrows the disk-vs.-memory gap, and **memory-efficient, skew-resilient sorting**. My research has appeared at VLDB and CIDR.
 
 Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Aerospace Engineering at the University of Tokyo.
+
+[Google Scholar](https://scholar.google.com/citations?user=tTa7P2MAAAAJ&hl=en) | [LinkedIn](https://linkedin.com/in/riki-otaki-b25a73346) | [GitHub](https://github.com/rotaki)
 
 ## News
 
@@ -26,6 +44,8 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 * University of Chicago, Sep 2022 - Present
 
   PhD in Computer Science, Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/) | Close Collaborator: Dr. Goetz Graefe (Google)
+
+  Transitional MS Degree was awarded in Mar 2025.
 
 * University of Tokyo, Mar 2017 - Mar 2022
 
@@ -42,8 +62,6 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 * **Riki Otaki**, Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe
 
   CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort
-
-  Very Large Data Bases (**VLDB**), 2026
 
 ### Published
 
@@ -73,7 +91,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 * **CrocSort: Memory-Efficient, Skew-Resilient Parallel External Sort (2024–2025)**
 
-  Coming soon. (*VLDB 2026, under review*)
+  Coming soon. (*Under review*)
 
 * **LIPAH: Bridging Disk and In-Memory Transaction Processing (2023–2025)**
 
