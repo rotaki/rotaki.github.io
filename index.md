@@ -1,7 +1,7 @@
 # Riki Otaki
 <div style="display: flex; align-items: center;">
   <div>
-    <strong>PhD Student</strong><br>
+    <strong>PhD Candidate, MongoDB PhD Fellow</strong><br>
     Computer Science Department, University of Chicago<br>
     rotaki [at] uchicago [dot] edu<br>
     John Crerar Library Building, 5730 South Ellis Avenue, Chicago IL 60637
@@ -13,17 +13,45 @@
 
 ---
 
-I am currently a third-year Ph.D. student in Computer Science at the University of Chicago under the mentorship of Prof. [Aaron J. Elmore](https://people.cs.uchicago.edu/~aelmore). My research centers on database systems, with particular interests in developing resource-adaptive query execution engines tailored for cloud-native databases and enhancing the performance of disk-based storage systems to compete with in-memory systems. Additionally, I have a keen interest in query optimization, transaction processing, and indexing techniques. I am passionate about building efficient and scalable systems that can adapt to varying workloads and resource constraints.
+I am a fourth-year Ph.D. student in Computer Science at the University of Chicago and a [**MongoDB PhD Fellow**](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients), advised by Prof. [Aaron J. Elmore](https://people.cs.uchicago.edu/~aelmore) in close collaboration with Dr. Goetz Graefe (Google). I build the next generation of data systems for cloud workloads, advancing memory and compute efficiency through **paged query execution** with fine-grained spills, **fast address translation via address hints** that narrows the disk-vs.-memory gap, and **memory-efficient, skew-resilient sorting**. My research has appeared at VLDB and CIDR.
 
 Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Aerospace Engineering at the University of Tokyo.
 
+## News
+
+* **Apr 2026** — Selected as a [MongoDB PhD Fellow](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients). [[UChicago news]](https://cs.uchicago.edu/news/university-of-chicago-phd-student-riki-otaki-receives-mongodb-phd-fellowship-award/)
+
+## Education
+
+* University of Chicago, Sep 2022 - Present
+
+  PhD in Computer Science, Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/) | Close Collaborator: Dr. Goetz Graefe (Google)
+
+* University of Tokyo, Mar 2017 - Mar 2022
+
+  Bachelor in Aerospace Engineering, Advisor: Prof. [Takehisa Yairi](https://ailab.t.u-tokyo.ac.jp/en/)
+
+* Uppsala University, Aug 2019 - Jun 2020
+
+  Exchange Student
+
 ## Publications
+
+### Under review
+
+* **Riki Otaki**, Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe
+
+  CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort
+
+  Very Large Data Bases (**VLDB**), 2026
+
+### Published
 
 * **Riki Otaki**, Jun Hyuk Chang, Aaron J. Elmore, and Goetz Graefe
 
-  Enhancing Transaction Processing through Indirection Skipping
+  [Enhancing Transaction Processing through Indirection Skipping](https://www.vldb.org/pvldb/vol18/p4104-otaki.pdf)
 
-  Under submission, 2025
+  Very Large Data Bases (**VLDB**), 2025
 
 * **Riki Otaki**, Jun Hyuk Chang, Charles Benello, Aaron J. Elmore, and Goetz Graefe
 
@@ -37,41 +65,46 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
   Conference on Innovative Data Systems Research (**CIDR**), 2024
 
+## Thesis
+
+* **Bridging In-memory and On-disk Transaction Processing with LIPAH** (Master Thesis, Mar 2025)
+
 ## Recent Projects
 
-* **Robust Pointer Swizzling techniques (2024-)**
+* **CrocSort: Memory-Efficient, Skew-Resilient Parallel External Sort (2024–2025)**
 
-  To bridge the performance gap between disk-based and in-memory database systems, I have focused on reducing inefficiencies in disk page retrieval. I developed Logical ID with Physical Address Hinting (LIPAH), a novel pointer-swizzling technique that enhances page access performance within the buffer pool manager. LIPAH is simpler and more robust than existing techniques, allowing for lazy updates of invalid pointers to new addresses. Currently, I am extending LIPAH to other components within the database system to further enhance performance.
+  Coming soon. (*VLDB 2026, under review*)
 
-* **Fine-grained Control of Query Execution for Resource-adaptive Databases (2022-)**
-  
-  Developing a resource-adaptive query engine in Rust designed to boost the performance of cloud-based databases. This project prioritizes the dynamic execution of queries under fluctuating resource capacities. Our current focus areas include the suspension and resumption of queries, adjusting resource allocations in run-time, and query re-optimizations. The ultimate goal is to enhance the control over query execution, ensuring more accurate and efficient use of resources.
+* **LIPAH: Bridging Disk and In-Memory Transaction Processing (2023–2025)**
 
-* **Designing Journal Storage for Optuna, a Hyperparameter Optimization Library (2022)**
-  
-  Contributed to the development of a journal log storage system for Optuna, a highly-regarded hyperparameter optimization library. 
-  This system enhances large-scale distributed optimization tasks by eliminating the need for centralized database management and ensuring efficient recovery during worker node failures. [Article](https://medium.com/optuna/distributed-optimization-via-nfs-using-optunas-new-operation-based-logging-storage-9815f9c3f932)
+  Up to 19.7× speedup on TPC-C-like workloads with 40 threads via combined index and buffer-pool skipping (index alone: 1.3× over BP skipping)—substantially narrowing the disk-vs.-memory throughput gap. **LIPAH** (Logical ID with Physical Address Hinting) is a generalized fast-path skipping technique derived from pointer-swizzling that uses stale hints with cheap validation at lookup, instantiated as index skipping and BP skipping with a concurrent Foster B-Tree as the index target.
 
-* **Benchmarking Concurrency Control Protocols for OLTP Workloads (2021)**
-  
-  Implemented and optimized various advanced concurrency control protocols (SILO, S2PL, MVTO) in C++, focusing on improving performance for OLTP workloads. Conducted detailed performance assessments under diverse operational scenarios using a comprehensive TPC-C benchmark suite to validate these improvements. [Repository](https://github.com/rotaki/tpcc-runner)
+* **Query Execution with Paged Memory (2022–2024)**
+
+  A pipelined execution engine where intermediate results live in the buffer pool as paged memory, enabling fine-grained spills, query suspension/resumption, and agile resource reallocation across operators. 15 of 22 TPC-H queries run within 1.5× of the non-paged baseline (slowdowns isolated to LIKE/regex-bound queries). Includes a logical optimizer with correlated-subquery unnesting (O(n²) → O(n)) and filter/projection pushdown.
+
+## Invited Talks
+
+* **Enhancing Transaction Processing through Indirection Skipping** (Nov 2025)
+
+  Microsoft Azure Databases Team Weekly Tech Talk — host: Hanuma Kodavalla
+
+## Experience
+
+* **Software Engineer Intern**, Google — Sunnyvale, CA (Summer 2026)
+
+* **Part-time Engineer**, Preferred Networks — Tokyo, Japan (2022)
+
+  Developed a storage engine from scratch for *Optuna*, a hyperparameter optimization framework, enabling use without access to RDBMS—particularly beneficial on supercomputers. Supported distributed access to the storage via Network File System (NFS), allowing parallel tuning jobs across multiple nodes.
 
 ## Teaching
 
-* TA 2024 Spring: CMCS 23500/33500 "Introduction to Database Systems"
+* TA: CMSC 23500/33500 "Introduction to Database Systems" — Winter 2026, Spring 2025, Spring 2024
 
-## Education
+## Service
 
-* University of Chicago, Sep 2022 - Present
+* Demo Track Reviewer, VLDB 2026
 
-  PhD in Computer Science, Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/)
+---
 
-* University of Tokyo, Mar 2017 - Mar 2022
-
-  Bachelor in Aerospace Engineering, Advisor: Prof. [Takehisa Yairi](https://ailab.t.u-tokyo.ac.jp/en/)
-
-* Uppsala University, Aug 2019 - Jun 2020
-
-  Exchange Student
-
-## Miscellaneous
+Last updated: April 29, 2026
