@@ -10,8 +10,8 @@
     margin-top: 20px !important;
   }
   .profile-image img {
-    width: 180px !important;
-    max-width: 55vw !important;
+    width: 220px !important;
+    max-width: 65vw !important;
   }
 }
 </style>
@@ -23,7 +23,7 @@
     John Crerar Library Building, 5730 South Ellis Avenue, Chicago IL 60637
   </div>
   <div class="profile-image" style="margin-left: 30px;">
-    <img src="profile.jpeg" alt="Riki Otaki" style="width: 150px; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 5px;" />
+    <img src="profile.jpeg" alt="Riki Otaki" style="width: 200px; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 5px;" />
   </div>
 </div>
 
