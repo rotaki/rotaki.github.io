@@ -10,8 +10,8 @@
     margin-top: 20px !important;
   }
   .profile-image img {
-    width: 120px !important;
-    max-width: 40vw !important;
+    width: 180px !important;
+    max-width: 55vw !important;
   }
 }
 </style>
@@ -129,4 +129,4 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ---
 
-Last updated: April 29, 2026
+Last updated: May 26, 2026
