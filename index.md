@@ -43,48 +43,40 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## Education
 
-* University of Chicago, Sep 2022 - Present\
+* **University of Chicago, Sep 2022 - Present**\
   PhD in Computer Science\
   Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/)\
   Close Collaborator: Dr. Goetz Graefe (Google)\
   Transitional MS Degree was awarded in Mar 2025.
 
-* University of Tokyo, Mar 2017 - Mar 2022\
+* **University of Tokyo, Mar 2017 - Mar 2022**\
   Bachelor in Aerospace Engineering, Advisor: Prof. [Takehisa Yairi](https://ailab.t.u-tokyo.ac.jp/en/)
 
-* Uppsala University, Aug 2019 - Jun 2020\
+* **Uppsala University, Aug 2019 - Jun 2020**\
   Exchange Student
 
 ## Publications
 
 ### Under review
 
-* **Riki Otaki**, Kathir Meyyappan, Aaron J. Elmore, and Goetz Graefe
-
+* **Riki Otaki**, Kathir Meyyappan, Aaron J. Elmore, and Goetz Graefe\
   Locality and Fast Paths in Buffer Pool Translation
 
-* **Riki Otaki**, Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe
-
+* **Riki Otaki**, Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe\
   CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort
 
 ### Published
 
-* **Riki Otaki**, Jun Hyuk Chang, Aaron J. Elmore, and Goetz Graefe
-
-  [Enhancing Transaction Processing through Indirection Skipping](https://www.vldb.org/pvldb/vol18/p4104-otaki.pdf)
-
+* **Riki Otaki**, Jun Hyuk Chang, Aaron J. Elmore, and Goetz Graefe\
+  [Enhancing Transaction Processing through Indirection Skipping](https://www.vldb.org/pvldb/vol18/p4104-otaki.pdf)\
   Very Large Data Bases (**VLDB**), 2025
 
-* **Riki Otaki**, Jun Hyuk Chang, Charles Benello, Aaron J. Elmore, and Goetz Graefe
-
-  [Resource-Adaptive Query Execution with Paged Memory Management](https://vldb.org/cidrdb/papers/2025/p2-otaki.pdf)
-
+* **Riki Otaki**, Jun Hyuk Chang, Charles Benello, Aaron J. Elmore, and Goetz Graefe\
+  [Resource-Adaptive Query Execution with Paged Memory Management](https://vldb.org/cidrdb/papers/2025/p2-otaki.pdf)\
   Conference on Innovative Data Systems Research (**CIDR**), 2025
 
-* Rui Liu, Jun Hyuk Chang, **Riki Otaki**, Zhe Heng Eng, Aaron J. Elmore, Michael J. Franklin, and Sanjay Krishnan
-
-  [Towards Resource-adaptive Query Execution in Cloud Native Databases](https://www.cidrdb.org/cidr2024/papers/p34-liu.pdf)
-
+* Rui Liu, Jun Hyuk Chang, **Riki Otaki**, Zhe Heng Eng, Aaron J. Elmore, Michael J. Franklin, and Sanjay Krishnan\
+  [Towards Resource-adaptive Query Execution in Cloud Native Databases](https://www.cidrdb.org/cidr2024/papers/p34-liu.pdf)\
   Conference on Innovative Data Systems Research (**CIDR**), 2024
 
 ## Thesis
