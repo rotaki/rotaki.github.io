@@ -86,30 +86,25 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## Recent Projects
 
-* **CrocSort: Memory-Efficient, Skew-Resilient Parallel External Sort (2024–2025)**
-
+* **CrocSort: Memory-Efficient, Skew-Resilient Parallel External Sort (2024–2025)**\
   Coming soon. (*Under review*)
 
-* **LIPAH: Bridging Disk and In-Memory Transaction Processing (2023–2025)**
-
+* **LIPAH: Bridging Disk and In-Memory Transaction Processing (2023–2025)**\
   Up to 19.7× speedup on TPC-C-like workloads with 40 threads via combined index and buffer-pool skipping (index alone: 1.3× over BP skipping)—substantially narrowing the disk-vs.-memory throughput gap. **LIPAH** (Logical ID with Physical Address Hinting) is a generalized fast-path skipping technique derived from pointer-swizzling that uses stale hints with cheap validation at lookup, instantiated as index skipping and BP skipping with a concurrent Foster B-Tree as the index target.
 
-* **Query Execution with Paged Memory (2022–2024)**
-
+* **Query Execution with Paged Memory (2022–2024)**\
   A pipelined execution engine where intermediate results live in the buffer pool as paged memory, enabling fine-grained spills, query suspension/resumption, and agile resource reallocation across operators. 15 of 22 TPC-H queries run within 1.5× of the non-paged baseline (slowdowns isolated to LIKE/regex-bound queries). Includes a logical optimizer with correlated-subquery unnesting (O(n²) → O(n)) and filter/projection pushdown.
 
 ## Invited Talks
 
-* **Enhancing Transaction Processing through Indirection Skipping** (Nov 2025)
-
+* **Enhancing Transaction Processing through Indirection Skipping** (Nov 2025)\
   Microsoft Azure Databases Team Weekly Tech Talk — host: Hanuma Kodavalla
 
 ## Experience
 
 * **Software Engineer Intern**, Google — Sunnyvale, CA (Summer 2026)
 
-* **Part-time Engineer**, Preferred Networks — Tokyo, Japan (2022)
-
+* **Part-time Engineer**, Preferred Networks — Tokyo, Japan (2022)\
   Developed a storage engine from scratch for *Optuna*, a hyperparameter optimization framework, enabling use without access to RDBMS—particularly beneficial on supercomputers. Supported distributed access to the storage via Network File System (NFS), allowing parallel tuning jobs across multiple nodes.
 
 ## Teaching
