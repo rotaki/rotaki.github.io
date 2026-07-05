@@ -62,9 +62,6 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ### Under review
 
-* Jun Hyuk Chang, **Riki Otaki**, Guanduo Mu, Aaron J. Elmore, and Goetz Graefe\
-  Multi-Version Hash Tables: Reusing Derived Intermediate Operator State
-
 * **Riki Otaki**, Kathir Meyyappan, Aaron J. Elmore, and Goetz Graefe\
   Locality and Fast Paths in Buffer Pool Translation
 
