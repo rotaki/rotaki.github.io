@@ -37,7 +37,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## News
 
-* **Jul 2026** — Paper accepted to VLDB 2026: "CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort" (with Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe). See you in Boston!
+* **Jul 2026** — Paper accepted to VLDB 2026: "CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort". See you in Boston!
 
 * **Jun 2026** — Joining Google Spanner team as a Software Engineer Intern for Summer 2026.
 
