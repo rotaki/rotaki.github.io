@@ -60,13 +60,17 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ### Under review
 
+* Jun Hyuk Chang, **Riki Otaki**, Guanduo Mu, Aaron J. Elmore, and Goetz Graefe\
+  Multi-Version Hash Tables: Reusing Derived Intermediate Operator State
+
 * **Riki Otaki**, Kathir Meyyappan, Aaron J. Elmore, and Goetz Graefe\
   Locality and Fast Paths in Buffer Pool Translation
 
-* **Riki Otaki**, Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe\
-  CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort
-
 ### Published
+
+* **Riki Otaki**, Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe\
+  CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort\
+  To appear at Very Large Data Bases (**VLDB**), 2026
 
 * **Riki Otaki**, Jun Hyuk Chang, Aaron J. Elmore, and Goetz Graefe\
   [Enhancing Transaction Processing through Indirection Skipping](https://www.vldb.org/pvldb/vol18/p4104-otaki.pdf)\
@@ -87,7 +91,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 ## Recent Projects
 
 * **CrocSort: Memory-Efficient, Skew-Resilient Parallel External Sort (2024–2025)**\
-  Coming soon. (*Under review*)
+  **Sorts 200 GB stably with only 2 GB of RAM**; Postgres, DuckDB, and ClickHouse take **>2× longer**, time out, or abort. Driven by a configuration-first sort planner that derives minimum memory and thread allocation via analytical modeling and experiments. **2× faster merge under skewed keys and payloads** via novel sparse-index range partitioning that balances both key counts *and* I/O volume across workers (vs. key-range partitioning). **~30% lower merge cost** for multi-pass sorts via **Offset-Value Coding** + **Tree-of-Losers** for faster per-record comparisons.
 
 * **LIPAH: Bridging Disk and In-Memory Transaction Processing (2023–2025)**\
   Up to 19.7× speedup on TPC-C-like workloads with 40 threads via combined index and buffer-pool skipping (index alone: 1.3× over BP skipping)—substantially narrowing the disk-vs.-memory throughput gap. **LIPAH** (Logical ID with Physical Address Hinting) is a generalized fast-path skipping technique derived from pointer-swizzling that uses stale hints with cheap validation at lookup, instantiated as index skipping and BP skipping with a concurrent Foster B-Tree as the index target.
@@ -117,4 +121,4 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ---
 
-Last updated: May 30, 2026
+Last updated: Jul 5, 2026
