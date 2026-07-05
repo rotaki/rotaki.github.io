@@ -37,6 +37,8 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## News
 
+* **Jul 2026** — Paper accepted to VLDB 2026: "CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort" (with Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe). See you in Boston!
+
 * **Jun 2026** — Joining Google Spanner team as a Software Engineer Intern for Summer 2026.
 
 * **Apr 2026** — Selected as a [MongoDB PhD Fellow](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients). [[UChicago news]](https://cs.uchicago.edu/news/university-of-chicago-phd-student-riki-otaki-receives-mongodb-phd-fellowship-award/)
