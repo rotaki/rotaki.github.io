@@ -37,6 +37,8 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## News
 
+* **Aug 2026** — Paper accepted to Datenbank-Spektrum 2026: "Locality and Fast Paths in Buffer Pool Translation".
+
 * **Jul 2026** — Paper accepted to VLDB 2026: "CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort". See you in Boston!
 
 * **Jun 2026** — Joining Google Spanner team as a Software Engineer Intern for Summer 2026.
@@ -60,12 +62,9 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## Publications
 
-### Under review
-
 * **Riki Otaki**, Kathir Meyyappan, Aaron J. Elmore, and Goetz Graefe\
-  Locality and Fast Paths in Buffer Pool Translation
-
-### Published
+  Locality and Fast Paths in Buffer Pool Translation\
+  To appear at Datenbank-Spektrum, 2026
 
 * **Riki Otaki**, Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe\
   CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort\
