@@ -37,7 +37,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## News
 
-* **Aug 2026** — Paper accepted to Datenbank-Spektrum 2026: "Locality and Fast Paths in Buffer Pool Translation".
+* **Aug 2026** — Paper accepted to the special issue on "Disaggregated Memory Systems" of Datenbank-Spektrum: "Locality and Fast Paths in Buffer Pool Translation".
 
 * **Jul 2026** — Paper accepted to VLDB 2026: "CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort". See you in Boston!
 
@@ -64,7 +64,7 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 * **Riki Otaki**, Kathir Meyyappan, Aaron J. Elmore, and Goetz Graefe\
   Locality and Fast Paths in Buffer Pool Translation\
-  To appear at Datenbank-Spektrum, 2026
+  To appear at Datenbank-Spektrum, special issue on "Disaggregated Memory Systems", 2026
 
 * **Riki Otaki**, Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe\
   CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort\
@@ -119,4 +119,4 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ---
 
-Last updated: Jul 5, 2026
+Last updated: Aug 5, 2026
