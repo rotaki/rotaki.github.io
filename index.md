@@ -63,12 +63,12 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 ## Publications
 
 * **Riki Otaki**, Kathir Meyyappan, Aaron J. Elmore, and Goetz Graefe\
-  Locality and Fast Paths in Buffer Pool Translation\
-  To appear at Datenbank-Spektrum, special issue on "Disaggregated Memory Systems", 2026
+  [Locality and Fast Paths in Buffer Pool Translation](https://link.springer.com/article/10.1007/s13222-026-00558-4)\
+  Datenbank-Spektrum, special issue on "Disaggregated Memory Systems", 2026
 
 * **Riki Otaki**, Charles Benello, Fuheng Zhao, Aaron J. Elmore, and Goetz Graefe\
-  CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort\
-  To appear at Very Large Data Bases (**VLDB**), 2026
+  [CrocSort: Resource-Efficient, Skew-Resilient Parallel External Merge Sort](https://www.vldb.org/pvldb/vol19/p2978-otaki.pdf)\
+  Very Large Data Bases (**VLDB**), 2026
 
 * **Riki Otaki**, Jun Hyuk Chang, Aaron J. Elmore, and Goetz Graefe\
   [Enhancing Transaction Processing through Indirection Skipping](https://www.vldb.org/pvldb/vol18/p4104-otaki.pdf)\
@@ -104,7 +104,8 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ## Experience
 
-* **Software Engineer Intern**, Google — Sunnyvale, CA (Summer 2026)
+* **PhD Software Engineer Intern**, Google — Sunnyvale, CA (Summer 2026)\
+  Worked on Spanner's core write path to expose internal-state and latency metrics for key stages, including **Paxos consensus** and **data compaction**. Improved diagnosis of write-pipeline performance bottlenecks, enabling faster outage resolution and proactive performance tuning across Spanner's planet-scale deployment.
 
 * **Part-time Engineer**, Preferred Networks — Tokyo, Japan (2022)\
   Developed a storage engine from scratch for *Optuna*, a hyperparameter optimization framework, enabling use without access to RDBMS—particularly beneficial on supercomputers. Supported distributed access to the storage via Network File System (NFS), allowing parallel tuning jobs across multiple nodes.
@@ -119,4 +120,4 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 ---
 
-Last updated: Aug 5, 2026
+Last updated: Sep 6, 2026
