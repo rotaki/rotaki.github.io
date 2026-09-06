@@ -45,20 +45,6 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 
 * **Apr 2026** — Selected as a [MongoDB PhD Fellow](https://www.mongodb.com/company/blog/innovation/announcing-the-2026-mongodb-phd-fellowship-recipients). [[UChicago news]](https://cs.uchicago.edu/news/university-of-chicago-phd-student-riki-otaki-receives-mongodb-phd-fellowship-award/)
 
-## Education
-
-* **University of Chicago, Sep 2022 - Present**\
-  PhD in Computer Science\
-  Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/)\
-  Close Collaborator: Dr. Goetz Graefe (Google)\
-  Transitional MS Degree was awarded in Mar 2025.
-
-* **University of Tokyo, Mar 2017 - Mar 2022**\
-  Bachelor in Aerospace Engineering\
-  Advisor: Prof. [Takehisa Yairi](https://ailab.t.u-tokyo.ac.jp/en/)
-
-* **Uppsala University, Aug 2019 - Jun 2020**\
-  Exchange Student
 
 ## Publications
 
@@ -82,10 +68,6 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
   [Towards Resource-adaptive Query Execution in Cloud Native Databases](https://www.cidrdb.org/cidr2024/papers/p34-liu.pdf)\
   Conference on Innovative Data Systems Research (**CIDR**), 2024
 
-## Thesis
-
-* **Bridging In-memory and On-disk Transaction Processing with LIPAH** (Master Thesis, Mar 2025)
-
 ## Recent Projects
 
 * **CrocSort: Memory-Efficient, Skew-Resilient Parallel External Sort (2024–2025)**\
@@ -97,11 +79,6 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 * **Query Execution with Paged Memory (2022–2024)**\
   A pipelined execution engine where intermediate results live in the buffer pool as paged memory, enabling fine-grained spills, query suspension/resumption, and agile resource reallocation across operators. 15 of 22 TPC-H queries run within 1.5× of the non-paged baseline (slowdowns isolated to LIKE/regex-bound queries). Includes a logical optimizer with correlated-subquery unnesting (O(n²) → O(n)) and filter/projection pushdown.
 
-## Invited Talks
-
-* **Enhancing Transaction Processing through Indirection Skipping** (Nov 2025)\
-  Microsoft Azure Databases Team Weekly Tech Talk — host: Hanuma Kodavalla
-
 ## Experience
 
 * **PhD Software Engineer Intern**, Google — Sunnyvale, CA (Summer 2026)\
@@ -110,13 +87,37 @@ Prior to my doctoral studies at UChicago, I completed my Bachelor's degree in Ae
 * **Part-time Engineer**, Preferred Networks — Tokyo, Japan (2022)\
   Developed a storage engine from scratch for *Optuna*, a hyperparameter optimization framework, enabling use without access to RDBMS—particularly beneficial on supercomputers. Supported distributed access to the storage via Network File System (NFS), allowing parallel tuning jobs across multiple nodes.
 
-## Teaching
+## Invited Talks
 
-* TA: CMSC 23500/33500 "Introduction to Database Systems" — Winter 2026, Spring 2025, Spring 2024
+* **Enhancing Transaction Processing through Indirection Skipping** (Nov 2025)\
+  Microsoft Azure Databases Team Weekly Tech Talk — host: Hanuma Kodavalla
 
 ## Service
 
 * Demo Track Reviewer, VLDB 2026
+
+## Teaching
+
+* TA: CMSC 23500/33500 "Introduction to Database Systems" — Winter 2026, Spring 2025, Spring 2024
+
+## Education
+
+* **University of Chicago, Sep 2022 - Present**\
+  PhD in Computer Science\
+  Advisor: Prof. [Aaron Elmore](https://people.cs.uchicago.edu/~aelmore/)\
+  Close Collaborator: Dr. Goetz Graefe (Google)\
+  Transitional MS Degree was awarded in Mar 2025.
+
+* **University of Tokyo, Mar 2017 - Mar 2022**\
+  Bachelor in Aerospace Engineering\
+  Advisor: Prof. [Takehisa Yairi](https://ailab.t.u-tokyo.ac.jp/en/)
+
+* **Uppsala University, Aug 2019 - Jun 2020**\
+  Exchange Student
+
+## Thesis
+
+* **Bridging In-memory and On-disk Transaction Processing with LIPAH** (Master Thesis, Mar 2025)
 
 ---
 
